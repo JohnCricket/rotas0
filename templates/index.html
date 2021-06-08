@@ -1,0 +1,140 @@
+<!--
+
+ |||||  ||||||  ||  ||  ||   ||     ||||||  ||||||  ||  ||||||  || //   ||||||  ||||||
+   ||   ||  ||  ||  ||  |||  ||     ||      ||  ||  ||  ||      ||//    ||        ||  
+   ||   ||  ||  ||||||  |||| ||     ||      ||||//  ||  ||      ||\\    ||||      ||
+|| ||   ||  ||  ||  ||  || ||||     ||      ||  \\  ||  ||      || \\   ||        ||
+|||||   ||||||  ||  ||  ||  |||     ||||||  ||  ||  ||  ||||||  ||  \\  ||||||    ||
+
+-->
+<!-- starts html page -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- starts head -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU LINDO SITE EM PYTHON & FLASK</title>
+    <!-- Remote Links -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Local Links -->
+
+    <link rel="stylesheet" href="./static/css/app.css">
+</head>
+<!-- ends head // starts body -->
+<body>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" rel="canonical" href="./"><img src="./static/img/icons/bamboolinux30.png" alt="Bamboolinux Brand"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <!-- Starts Navigation Menu -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                    HOME
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#sobre">
+                    SOBRE
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#produtos">
+                    PRODUTOS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#contato">
+                    CONTATO
+                    </a>
+                </li>
+                </ul>
+                <!-- Ends Navigation Menu -->
+            </div>
+            <!-- ends collapse -->
+        </nav>
+        <!-- ends navigation // starts main -->
+        <div class="main">
+            <div class="home">
+                <h1>Bem vindo!</h1>
+                <div class="content">
+                    <p>Suspendisse gravida sapien est, in imperdiet elit consequat bibendum. Nulla nec arcu id quam pharetra blandit. Nunc ullamcorper lorem non augue sodales, eget elementum lacus tincidunt. Nullam ultricies laoreet volutpat. Donec justo sapien, tempus vel leo id, commodo porttitor arcu. Maecenas tristique nisi et lectus ornare fermentum. Pellentesque fringilla mauris est. Cras viverra odio ligula, sit amet viverra dolor placerat volutpat. Fusce lacinia blandit dictum. Praesent maximus molestie erat id dignissim.</p>
+                </div>
+            </div>
+            <div id="sobre">
+                <h1>Sobre</h1>
+                <div class="content">
+                    <p>Suspendisse gravida sapien est, in imperdiet elit consequat bibendum. Nulla nec arcu id quam pharetra blandit. Nunc ullamcorper lorem non augue sodales, eget elementum lacus tincidunt. Nullam ultricies laoreet volutpat. Donec justo sapien, tempus vel leo id, commodo porttitor arcu. Maecenas tristique nisi et lectus ornare fermentum. Pellentesque fringilla mauris est. Cras viverra odio ligula, sit amet viverra dolor placerat volutpat. Fusce lacinia blandit dictum. Praesent maximus molestie erat id dignissim.</p>
+                </div>
+            </div>
+            <div id="produtos">
+                <h1>Produtos</h1>
+                <div class="content">
+                    <p>Suspendisse gravida sapien est, in imperdiet elit consequat bibendum. Nulla nec arcu id quam pharetra blandit. Nunc ullamcorper lorem non augue sodales, eget elementum lacus tincidunt. Nullam ultricies laoreet volutpat. Donec justo sapien, tempus vel leo id, commodo porttitor arcu. Maecenas tristique nisi et lectus ornare fermentum. Pellentesque fringilla mauris est. Cras viverra odio ligula, sit amet viverra dolor placerat volutpat. Fusce lacinia blandit dictum. Praesent maximus molestie erat id dignissim.</p>
+                </div>
+            </div>
+            <div id="contato">
+                <h1>Contato</h1>
+                <div class="content">
+                    <form class="contato">
+                        <div class="row mb-3">
+                            <label for="nome" class="col-sm-2 col-form-label">NOME:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="nome" id="nome">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="email" class="col-sm-2 col-form-label">EMAIL:</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="assunto" class="col-sm-2 col-form-label">ASSUNTO:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="assunto" id="assunto">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="mensagem" class="col-sm-2 col-form-label">RECADO:</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" name="mensagem" id="mensagem"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <button type="submit" class="btn btn-dark">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- ends main // starts footer --->
+        <footer class="text-center">
+            <div class="copyleft">
+                <div class="copyleft-left">
+                    <span><i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-nd"></i> <i class="fab fa-creative-commons-sa"></i></span> <span><a href="/">MEU LINDO SITE EM PYTHON & FLASK</a></span> &#x1F12F; 2019 &#150; 2021
+                </div>
+                <div class="copyleft-right">
+                    <span><a target="_blank" href="https://bamboolinux.com.br">Bamboolinux</a> &reg; 2019 &#150; 2021</span> | <span><a href="./"><i class="fas fa-home"></i></a></span> | <span><a href="/"><i class="fas fa-arrow-circle-up"></i></a></span> | <span><a href=""><i class="fas fa-database"></i></a></span>
+                </div>
+            </div>
+        </footer>
+        <!-- ends footer -->
+    </div>
+    <!-- ends wrapper -->
+</body>
+</html>

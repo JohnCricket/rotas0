@@ -1,0 +1,47 @@
+
+@function column-width($col, $total) {  
+    @return percentage($col/$total);  
+   }
+
+@mixin transition-ease {
+    transition:all .4s ease-in-out;
+}
+
+@function set-text-color($color) {
+    @if(lightness($color) > 50%) {
+        @return $first-color;
+    } @else {
+        @return $second-color;
+    }
+}
+
+@mixin media-xs { 
+    @media screen and (max-width:360px) {
+        @content;
+    }
+
+}
+
+@mixin media-sm {
+    @media screen and (max-width:768px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (max-width:1024px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+  @media screen and (max-width:1200px) {
+      @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (min-width:1200px) {
+      @content;
+  }
+}
