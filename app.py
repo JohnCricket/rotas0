@@ -14,15 +14,19 @@ def index():
 
 @app.route('/sobre')
 def sobre():
-    return render_template('index.html#sobre') # O template 
+    return render_template('sobre.html') # O template 
 
 @app.route('/produtos')
 def produtos():
-    return render_template('index.html#produtos') # O template 
+    return render_template('produtos.html') # O template 
 
 @app.route('/contato')
 def contato():
-    return render_template('index.html#contato') # O template 
+    return render_template('contato.html') # O template 
+
+@app.route('/admin')
+def admin():
+    return render_template('admin.html')
 
 # iniciando o servidor comm o método 'run()'
 if __name__ == '__main__':
